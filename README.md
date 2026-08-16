@@ -5,12 +5,15 @@ __Universal Generator__ is an AI Dungeon scenario that can be used to create pro
 
 ${UG Scenario}
 
+[__Glossary__](#Glossary)
+
 __Contents__
 - [Getting Started](#Getting-Started)
 -
 
-__Advanced Topics__
-- Generate with Background Prompt
+__Advanced Features__
+- [Generate with Background Prompt](#Generate-with-Background-Prompt)
+- [Play with Multiple Prompts](#Play-with-Multiple-Prompts)
 
 ### Getting Started
 
@@ -27,4 +30,30 @@ Response Length: 200   (Gameplay -> Story Generator -> Model Settings)
 Raw Model Output: On   (Gameplay -> Testing & Feedback)
 
 
+Click __Generate__ then __Generate__ again to create a __Universal Generator prompt__.
 
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Generate.JPG />
+
+### Generate with Background Prompt
+
+__Generate with Background Prompt__ lets you include a prior Universal Generator prompt when creating a new one. _The prompt created with this option will __not__ include components from the background prompt in its final output._
+
+This option is useful, for instance, when creating a character to fit with a world or scenario when using __Play with Multiple Prompts__.
+
+
+### Play with Multiple Prompts
+
+
+### Glossary
+
+__Generate:__ One of the two scenario options for Universal Generator. Generate creates a __prompt__.
+
+__Play:__ One of the two scenario options for Universal Generator. Play uses a __prompt__ to run an adventure.
+
+__Prompt:__ JSON-formatted text created from multiple __components__ that can be used with __Play__ or other Universal Generator-enabled scenarios to run an adventure. The final output of __Generate__ creates a __prompt__.
+
+__Component:__ Modular parts of a larger __Prompt__. Each output from __Generate__ its own component, except the first, and each __component__ has its own topic. __Components__ have a title and multiple fields.
+
+__Field:__ Information in __components__ is generated in Field: Entry format. The __field__ comes before the colon and describes the type of information contained in its __entry__.
+
+__Entry:__ Information in __components_ is generated in Field: Entry format. The __entry__ comes after the colon and contains generated information about its __field__.
