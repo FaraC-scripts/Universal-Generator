@@ -16,9 +16,15 @@ __Advanced Topics__
 
 Before you start using Universal Generator, ensure your settings are properly configured. Improperly configured settings, particularly __Optimized Context__, are the number one cause of issues.
 
-⚙️__Required Model Settings__
+__⚙️Required Model Settings__
+
 ⚠️Optimized Context: ___MUST BE OFF___ (Gameplay -> Story Generator -> Memory System)
+
 Context Length: 4000+  (Gameplay -> Story Generator -> Memory System)
+
 Response Length: 200   (Gameplay -> Story Generator -> Model Settings)
+
 Raw Model Output: On   (Gameplay -> Testing & Feedback)
+
+
 
