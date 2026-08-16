@@ -30,9 +30,17 @@ Response Length: 200   (Gameplay -> Story Generator -> Model Settings)
 Raw Model Output: On   (Gameplay -> Testing & Feedback)
 
 
-Click __Generate__ then __Generate__ again to create a __Universal Generator prompt__.
+Click __Generate__ then __Generate__ again.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Generate.JPG />
+
+You will be asked to enter a __Prompt Type__ and __Concept__.
+
+__Prompt Type__ is the type of writing you want to produce. Typically, this will be a __genre__ (sci-fi, romance, etc.) plus a __writing type__. The generator has instructions for handling each of the following __standard types__:
+
+__Scenario:__ An open-ended adventure that focuses more on exploration and freedom than producing a specific story.
+
+__Narrative:__ 
 
 ### Generate with Background Prompt
 
@@ -56,4 +64,4 @@ __Component:__ Modular parts of a larger __Prompt__. Each output from __Generate
 
 __Field:__ Information in __components__ is generated in Field: Entry format. The __field__ comes before the colon and describes the type of information contained in its __entry__.
 
-__Entry:__ Information in __components_ is generated in Field: Entry format. The __entry__ comes after the colon and contains generated information about its __field__.
+__Entry:__ Information in __components__ is generated in Field: Entry format. The __entry__ comes after the colon and contains generated information about its __field__.
