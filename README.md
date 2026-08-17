@@ -32,7 +32,7 @@ Raw Model Output: On   (Gameplay -> Testing & Feedback)
 
 Click __Generate__ then __Generate__ again.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Generate.JPG />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Generate.JPG />
 
 You will be asked to enter a __Prompt Type__ and __Concept__.
 
@@ -41,6 +41,8 @@ __Prompt Type__ is the type of writing you want to produce. Typically, this will
 __Scenario:__ An open-ended adventure that focuses more on exploration and freedom than producing a specific story.
 
 __Narrative:__ 
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG />
 
 ### Generate with Background Prompt
 
