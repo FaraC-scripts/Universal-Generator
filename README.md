@@ -40,7 +40,13 @@ __Prompt Type__ is the type of writing you want to produce. Typically, this will
 
 __Scenario:__ An open-ended adventure that focuses more on exploration and freedom than producing a specific story.
 
-__Narrative:__ 
+__Narrative:__ An adventure tailored to specific characters and situations, intended to progress along a planned course.
+
+__Short Story:__ An adventure with a limited scope, intended to last for just a few scenes.
+
+__World:__ A prompt that builds out a world with factions, locations, lore, etc. Can be used as the __background prompt__ when using __Generate with Background Prompt__, or as the __background prompt__ when using __Play with Multiple Prompts__. World prompts typically don't include the __scenario__, __narrative__, __backstory__, or __style__ components, and so may not function well when used to produce an adventure on their own.
+
+__Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG />
 
