@@ -16,6 +16,7 @@ __Advanced Features__
 - [Generate with Background Prompt](#Generate-with-Background-Prompt)
 - [Play with Multiple Prompts](#Play-with-Multiple-Prompts)
 - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards)
+- [Component Relationships](#Component-Relationships)
 - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
 ### Getting Started
