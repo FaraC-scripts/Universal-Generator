@@ -1,5 +1,5 @@
-# 🌌 Universal Generator Basics 🌌
-A guide to the basic uses and features of Universal Generator.
+# 🌌 Universal Generator Guide 🌌
+A guide to the uses and features of Universal Generator.
 
 __Universal Generator__ is an AI Dungeon scenario that can be used to create prompts for custom scenarios, narratives, characters, and worlds. It can be found here:
 
@@ -12,8 +12,11 @@ __Contents__
 -
 
 __Advanced Features__
+- [Generator Settings](#Generator-Settings)
 - [Generate with Background Prompt](#Generate-with-Background-Prompt)
 - [Play with Multiple Prompts](#Play-with-Multiple-Prompts)
+- [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards)
+- [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
 ### Getting Started
 
