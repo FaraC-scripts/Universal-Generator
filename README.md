@@ -48,7 +48,7 @@ __World:__ A prompt that builds out a world with factions, locations, lore, etc.
 
 __Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG width=75% height=75% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG width=40% height=40% />
 
 ### Generate with Background Prompt
 
