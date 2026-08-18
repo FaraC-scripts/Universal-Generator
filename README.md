@@ -16,6 +16,7 @@ __Advanced Features__
 - [Generate with Background Prompt](#Generate-with-Background-Prompt)
 - [Play with Multiple Prompts](#Play-with-Multiple-Prompts)
 - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards)
+- [Using a UG Protagonist in a Standard Scenario](#Using-a-UG-Protagonist-in-a-Standard-Scenario)
 - [Component Relationships](#Component-Relationships)
 - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
@@ -50,11 +51,13 @@ __Short Story:__ An adventure with a limited scope, intended to last for just a 
 
 __World:__ A prompt that builds out a world with factions, locations, lore, etc. Can be used as the __background prompt__ when using __Generate with Background Prompt__ or __Play with Multiple Prompts__. World prompts typically don't include the __scenario__, __narrative__, __backstory__, or __style__ components, and so may not function well when used to produce an adventure on their own.
 
-__Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__. They are also easy to use in standard scenarios. Just paste your character prompt into a placeholder field asking you to describe your character or Plot Essentials and it will _usually_ work. 
+__Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__. They are also the easiest to use in standard scenarios. For more information, see [__Using a UG Protagonist in a Standard Scenario__](#Using-a-UG-Protagonist-in-a-Standard-Scenario).
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG width=60% height=60% />
 
-__Concept__ is open-ended and optional. You can skip it, if you don't really know what you want to make. But giving the generator some guidance is always recommended, even if it's just a few words. However, you can also go into great detail in your concept.
+__Concept__ is open-ended and optional. You can skip it, if you don't really know what you want to make. But giving the generator some guidance is always recommended, even if it's just a few words. However, you can also go into great detail in your concept. By default, the __concept__ is not included in the final prompt. However, this can be changed in the [__Generator Settings__](#Generator-Settings).
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Concept.JPG width=60% height=60% />
 
 ### Generate with Background Prompt
 
