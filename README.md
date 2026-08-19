@@ -43,16 +43,11 @@ Click __Generate__ then __Generate__ again.
 You will be asked to enter a __Prompt Type__ and __Concept__.
 
 __Prompt Type__ is the type of writing you want to produce. Typically, this will be a __genre__ (sci-fi, romance, etc.) plus a __writing type__. The generator has instructions for handling each of the following __standard types__:
-
-__Scenario:__ An open-ended adventure that focuses more on exploration and freedom than producing a specific story.
-
-__Narrative:__ An adventure tailored to specific characters and situations, intended to progress along a planned course.
-
-__Short Story:__ An adventure with a limited scope, intended to last for just a few scenes.
-
-__World:__ A prompt that builds out a world with factions, locations, lore, etc. Can be used as the __background prompt__ when using __Generate with Background Prompt__ or __Play with Multiple Prompts__. World prompts typically don't include the __scenario__, __narrative__, __backstory__, or __style__ components, and so may not function well when used to produce an adventure on their own.
-
-__Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__. They are also the easiest to use in standard scenarios. For more information, see [__Using Prompts in a Standard Scenario__](#Using-Prompts-in-a-Standard-Scenario).
+- __Scenario:__ An open-ended adventure that focuses more on exploration and freedom than producing a specific story.
+- __Narrative:__ An adventure tailored to specific characters and situations, intended to progress along a planned course.
+- __Short Story:__ An adventure with a limited scope, intended to last for just a few scenes.
+- __World:__ A prompt that builds out a world with factions, locations, lore, etc. Can be used as the __background prompt__ when using __Generate with Background Prompt__ or __Play with Multiple Prompts__. World prompts typically don't include the __scenario__, __narrative__, __backstory__, or __style__ components, and so may not function well when used to produce an adventure on their own.
+- __Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__. They are also the easiest to use in standard scenarios. For more information, see [__Using Prompts in a Standard Scenario__](#Using-Prompts-in-a-Standard-Scenario).
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG width=60% height=60% />
 
