@@ -10,8 +10,10 @@ ${UG Scenario}
 __Contents__
 - [Getting Started](#Getting-Started)
 - [Creating Components](#Creating-Components)
+- [Modifying Components](#Modifying-Components)
+- [Final Formatted Prompt](#Final-Formatted-Prompt)
 
-__Advanced Features__
+__Advanced Topics__
 - [Generator Settings](#Generator-Settings)
 - [Modifying Component Templates](#Modifying-Component-Templates)
 - [Generate with Background Prompt](#Generate-with-Background-Prompt)
@@ -65,7 +67,7 @@ The __component sequence__ does not guide the generator's writing, but it does c
 
 ___Before you continue___, make sure the __component sequence__ fits the type of prompt you want to create. You can enter _/list_ in Do or Say for a summary of what each component does or look at the __component templates__ in your Story Cards for full information on exactly what the generator will be asked to created.
 
-## Creating Components
+### Creating Components
 
 After your __initial output__ is generated along with its __component sequence__ you can create the components in that sequence by just pressing __continue__. The next component in your sequence is always shown at the bottom of each output.
 
@@ -85,6 +87,17 @@ You can also guide a component created with a slash command by including a __req
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Slash%20Command%20with%20Request.JPG height=80% width=80% />
 
+### Modifying Components
+
+
+
+### Final Formatted Output
+
+
+### Generator Settings
+
+### Modifying Component Templates
+
 ### Generate with Background Prompt
 
 __Generate with Background Prompt__ lets you include a prior Universal Generator prompt when creating a new one. _The prompt created with this option will __not__ include components from the background prompt in its final output._
@@ -94,6 +107,13 @@ This option is useful, for instance, when creating a character to fit with a wor
 
 ### Play with Multiple Prompts
 
+### Prompt Cards vs Story Cards
+
+### Using Prompts in a Standard Scenario
+
+### Component Relationships
+
+### Creating Placeholder Cards
 
 ### Glossary
 
