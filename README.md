@@ -94,7 +94,7 @@ You can also guide a component created with a slash command by including a __req
 
 Components can be fully modified in the scenario text editor, however, certain rules need to be followed when modifying them. Here is a component broken into parts, with an explanation of how each can be modified.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Component%20Parts.JPG width=70% height=70% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Component%20Parts.jpg width=70% height=70% />
 
 🟢 __Name:__ Some components, like __character__ and __location__, have names. Others, like __narrative__ and __style__, do not. If a component has a name, it will be on the first line and must be separated by the component type by a space, a hyphen, and another space " - ". __This part can be edited so long as the formatting is kept the same.__
 
