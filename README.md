@@ -41,7 +41,7 @@ Raw Model Output: On   (Gameplay -> Testing & Feedback)
 
 Click __Generate__ then __Generate__ again.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Generate.JPG />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Generate.JPG />
 
 You will be asked to enter a __Prompt Type__ and __Concept__.
 
@@ -52,15 +52,15 @@ __Prompt Type__ is the type of writing you want to produce. Typically, this will
 - __World:__ A prompt that builds out a world with factions, locations, lore, etc. Can be used as the __background prompt__ when using __Generate with Background Prompt__ or __Play with Multiple Prompts__. World prompts typically don't include the __scenario__, __narrative__, __backstory__, or __style__ components, and so may not function well when used to produce an adventure on their own.
 - __Character:__ A prompt that creates a character from multiple components, going into great detail on a single individual. Character prompts are not meant to be used to create an adventure on their own. Character prompts can be used as a __protagonist prompt__ or __background prompt__ when selecting __Play with Multiple Prompts__. They are also the easiest to use in standard scenarios. For more information, see [__Using Prompts in a Standard Scenario__](#Using-Prompts-in-a-Standard-Scenario).
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Prompt%20Type.JPG width=60% height=60% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Prompt%20Type.JPG width=60% height=60% />
 
 __Concept__ is open-ended and optional. You can skip it, if you don't really know what you want to make. But giving the generator some guidance is always recommended, even if it's just a few words. However, you can also go into great detail in your concept. By default, the __concept__ is not directly included in the final prompt. However, this can be changed in the [__Generator Settings__](#Generator-Settings).
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Concept.JPG width=60% height=60% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Concept.JPG width=60% height=60% />
 
 Once you enter your concept you will get an __initial output__, which the generator uses to guide component creation. Make sure these instructions fit the type of prompt you're looking to create.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Initial%20Output.JPG width=70% height=70% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Initial%20Output.JPG width=70% height=70% />
 
 The __initial output__ is split into four sections: role, direction, component sequence, and rules. Of these four, role, direction, and rules are fairly straightforward: they give the generator textual guidance on how it should create components. They can be freely edited or even removed entirely.
 
@@ -76,17 +76,17 @@ If you would like to guide your next component, enter a __request__ into __Do__ 
 
 For instance, if your next component is Character, and you would like to create a pirate captain, you can enter _a pirate captain_ into __Do__ or __Say__.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Player%20Request.JPG height=80% width=80% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Player%20Request.JPG height=80% width=80% />
 
 If you would like to create a component other than the next component in your __component sequence__, you can enter the name of that component as a slash command.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Slash%20Command.JPG/>
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Slash%20Command.JPG/>
 
 A list of components with basic descriptions for each can be seen by entering _/list_ in Do or Say.
 
 You can also guide a component created with a slash command by including a __request__ after the command. For instance, if your next component is World, but you would like to create a pirate captain, enter _/character a pirate captain_ into Do or Say.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Slash%20Command%20with%20Request.JPG height=80% width=80% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Slash%20Command%20with%20Request.JPG height=80% width=80% />
 
 ## Characters
 
@@ -94,7 +94,7 @@ You can also guide a component created with a slash command by including a __req
 
 Components can be fully modified in the scenario text editor, however, certain rules need to be followed when modifying them. Here is a component broken into parts, with an explanation of how each can be modified.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Component%20Parts.JPG width=70% height=70% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Component%20Parts.JPG width=70% height=70% />
 
 🟢 __Name:__ Some components, like __character__ and __location__, have names. Others, like __narrative__ and __style__, do not. If a component has a name, it will be on the first line and must be separated by the component type by a space, a hyphen, and another space " - ". __This part can be edited so long as the formatting is kept the same.__
 
