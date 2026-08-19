@@ -10,6 +10,7 @@ ${UG Scenario}
 __Contents__
 - [Getting Started](#Getting-Started)
 - [Creating Components](#Creating-Components)
+- [Characters](#Characters)
 - [Modifying Components](#Modifying-Components)
 - [Final Formatted Prompt](#Final-Formatted-Prompt)
 
@@ -59,7 +60,7 @@ __Concept__ is open-ended and optional. You can skip it, if you don't really kno
 
 Once you enter your concept you will get an __initial output__, which the generator uses to guide component creation. Make sure these instructions fit the type of prompt you're looking to create.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Initial%20Output.JPG width=60% height=60% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Initial%20Output.JPG width=70% height=70% />
 
 The __initial output__ is split into four sections: role, direction, component sequence, and rules. Of these four, role, direction, and rules are fairly straightforward: they give the generator textual guidance on how it should create components. They can be freely edited or even removed entirely.
 
@@ -87,8 +88,23 @@ You can also guide a component created with a slash command by including a __req
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Slash%20Command%20with%20Request.JPG height=80% width=80% />
 
+## Characters
+
 ## Modifying Components
 
+Components can be fully modified in the scenario text editor, however, certain rules need to be followed when modifying them. Here is a component broken into parts, with an explanation of how each can be modified.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Component%20Parts.JPG width=70% height=70% />
+
+🟢 __Name:__ ___EDITABLE___. Some components, like __character__ and __location__, have names. Others, like __narrative__ and __style__, do not. If a component has a name, it will be on the first line and must be separated by the component type by a space, a hyphen, and another space " - ". __This part can be edited so long as the formatting is kept the same.__
+
+🔴 __Component Type:__ The name of component being generated. __Do not edit this part.__
+
+🟣 __Role:__ This is only present on the __character__ and __character base__ components, describing the narrative role of the character. It must be inside of parentheses, after the __component type__. __This part can be edited so long as the formatting is kept the same.__ However, keep in mind that the character you intend to play should have the __(Protagonist)__ role.
+
+🟠 __Field:__ A field name which defines what the value that follows it describes. The bulk of each component are paired __fields__ and __values__. Each __Field: Value__ pair must be a single paragraph (must be on a single line). The field is what comes before the first colon, and each line __must have a field__. __This part can be edited so long as the formatting is kept the same.__
+
+🟡 __Value:__ The text describing its __field__. __This part can be freely edited so long as it remains a single paragraph (a single line).__
 
 ## Final Formatted Output
 
@@ -123,6 +139,6 @@ __Prompt:__ JSON-formatted text created from multiple __components__ that can be
 
 __Component:__ Modular parts of a larger __Prompt__. Each output from __Generate__ its own component, except the first, and each __component__ has its own topic. __Components__ have a title and multiple fields.
 
-__Field:__ Information in __components__ is generated in Field: Entry format. The __field__ comes before the colon and describes the type of information contained in its __entry__.
+__Field:__ Information in __components__ is generated in Field: Value format. The __field__ comes before the colon and describes the type of information contained in its __value__.
 
-__Entry:__ Information in __components__ is generated in Field: Entry format. The __entry__ comes after the colon and contains generated information about its __field__.
+__Value:__ Information in __components__ is generated in Field: Value format. The __value__ comes after the colon and contains generated information about its __field__.
