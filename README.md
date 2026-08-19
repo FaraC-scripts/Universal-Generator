@@ -59,7 +59,7 @@ __Concept__ is open-ended and optional. You can skip it, if you don't really kno
 
 Once you enter your concept you will get an __initial output__, which the generator uses to guide component creation. Make sure these instructions fit the type of prompt you're looking to create.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Initial%20Output.JPG/>
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Initial%20Output.JPG width=60% height=60% />
 
 The __initial output__ is split into four sections: role, direction, component sequence, and rules. Of these four, role, direction, and rules are fairly straightforward: they give the generator textual guidance on how it should create components. They can be freely edited or even removed entirely.
 
