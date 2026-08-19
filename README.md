@@ -9,7 +9,7 @@ ${UG Scenario}
 
 __Contents__
 - [Getting Started](#Getting-Started)
--
+- [Creating Components](#Creating-Components)
 
 __Advanced Features__
 - [Generator Settings](#Generator-Settings)
@@ -63,7 +63,27 @@ The __initial output__ is split into four sections: role, direction, component s
 
 The __component sequence__ does not guide the generator's writing, but it does control which components get created and in what order.
 
-___Before you continue___, make sure the __component sequence__ fits the type of prompt you want to create. You can enter /list for a summary of what each component does. 
+___Before you continue___, make sure the __component sequence__ fits the type of prompt you want to create. You can enter _/list_ in Do or Say for a summary of what each component does or look at the __component templates__ in your Story Cards for full information on exactly what the generator will be asked to created.
+
+## Creating Components
+
+After your __initial output__ is generated along with its __component sequence__ you can create the components in that sequence by just pressing __continue__. The next component in your sequence is always shown at the bottom of each output.
+
+If you would like to guide your next component, enter a __request__ into __Do__ or __Say__. ___DO NOT___ use __Guide__ in the Do/Say action bar. It will not work.
+
+For instance, if your next component is Character, and you would like to create a pirate captain, you can enter _a pirate captain_ into __Do__ or __Say__.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Player%20Request.JPG height=80% width=80% />
+
+If you would like to create a component other than the next component in your __component sequence__, you can enter the name of that component as a slash command.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Slash%20Command.JPG/>
+
+A list of components with basic descriptions for each can be seen by entering _/list_ in Do or Say.
+
+You can also guide a component created with a slash command by including a __request__ after the command. For instance, if your next component is World, but you would like to create a pirate captain, enter _/character a pirate captain_ into Do or Say.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Slash%20Command%20with%20Request.JPG height=80% width=80% />
 
 ### Generate with Background Prompt
 
