@@ -96,7 +96,7 @@ Components can be fully modified in the scenario text editor, however, certain r
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Basics/blob/main/Images/Component%20Parts.JPG width=70% height=70% />
 
-🟢 __Name:__ ___EDITABLE___. Some components, like __character__ and __location__, have names. Others, like __narrative__ and __style__, do not. If a component has a name, it will be on the first line and must be separated by the component type by a space, a hyphen, and another space " - ". __This part can be edited so long as the formatting is kept the same.__
+🟢 __Name:__ Some components, like __character__ and __location__, have names. Others, like __narrative__ and __style__, do not. If a component has a name, it will be on the first line and must be separated by the component type by a space, a hyphen, and another space " - ". __This part can be edited so long as the formatting is kept the same.__
 
 🔴 __Component Type:__ The name of component being generated. __Do not edit this part.__
 
