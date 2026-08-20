@@ -34,7 +34,7 @@ __⚙️Required Model Settings__
 
 Context Length: 4000+  (Gameplay -> Story Generator -> Memory System)
 
-Response Length: 200   (Gameplay -> Story Generator -> Model Settings)
+Response Length: 200+   (Gameplay -> Story Generator -> Model Settings)
 
 Raw Model Output: On   (Gameplay -> Testing & Feedback)
 
@@ -151,6 +151,8 @@ To use your __prompt__ to create an adventure, click on the final output's text 
 [Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
 ## Generator Settings
+
+Set Component Size: changes the maximum word count the generator is given for each output. This should be about 75% of your Response Length. If response length is 200, it should be 150 at baseline. If response length is 400, it should be 300. This number can be adjusted up or down from `
 
 ## Modifying Component Templates
 
