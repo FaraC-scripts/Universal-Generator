@@ -108,6 +108,12 @@ Components can be fully modified in the scenario text editor, however, certain r
 
 ## Final Formatted Output
 
+When you reach the end of your __component sequence__, if you press __continue__ you will get a JSON-formatted __prompt__ that can be used directly in __Play__ or any __Toolbox__ scenario that accepts __Universal Generator prompts__.
+
+# Advanced Topics
+
+[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
+
 ## Generator Settings
 
 ## Modifying Component Templates
