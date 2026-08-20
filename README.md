@@ -96,7 +96,7 @@ Universal Generator characters can be contained in a single component, or creati
 
 For a __simple character__, use the _/character_ command. It will look something like this:
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Component%20Parts.jpg width=70% height=70% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Character.JPG width=70% height=70% />
 
 A __simple character__ contains a __name__ on the top line, before the hyphen, a __role__ (in parentheses after the word "Character"), as well as a __gender__, and relatively short __background__, __appearance__, and __personality__ fields. For most purposes, especially if the character isn't central to the story, this is enough.
 
@@ -114,13 +114,13 @@ A character base should be followed by additional components in the __component 
 
 The resulting character prompt would consist of four components, the __character base__ as well as a full component detailing that character's __background__, __appearance__, and __personality__, providing considerably more depth to that character (and taking up a larger number of tokens in your context).
 
-Whether you started with a __simple__ or __multi-component character__, you can add further information to that character with Character-type components (you can see them in Story Cards under the Component - Character category). Aside from those already mentioned, the components that work by building off of an existing __character__ or __character base__ component include: __speech__, __preferences__, __romantic preferences__, __relationship__, __attributes__, __class__, __abilities__, __clothing__, __equipment__, __inventory__, and __resources__. If you are building a character, choose the components that are most important. ___Using all of these is certainly not recommended.___
+Whether you started with a __simple__ or __multi-component character__, you can add further information to that character with Character-type components (you can see them in Story Cards under the _Component - Character_ category). Aside from those already mentioned, the components that work by building off of an existing __character__ or __character base__ component include: __speech__, __preferences__, __romantic preferences__, __relationship__, __attributes__, __class__, __abilities__, __clothing__, __equipment__, __inventory__, and __resources__. If you are building a character, choose the components that are most important. ___Using all of these at the same time is certainly not recommended.___
 
 ## Modifying Components
 
 Components can be fully modified in the scenario text editor, however, certain rules need to be followed when modifying them. Here is a component broken into parts, with an explanation of how each can be modified.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Character.JPG width=70% height=70% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Component%20Parts.jpg width=70% height=70% />
 
 🟢 __Name:__ Some components, like __character__ and __location__, have names. Others, like __narrative__ and __style__, do not. If a component has a name, it will be on the first line and must be separated by the component type by a space, a hyphen, and another space " - ". __This part can be edited so long as the formatting is kept the same.__
 
