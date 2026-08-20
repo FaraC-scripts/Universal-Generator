@@ -82,6 +82,8 @@ If you would like to create a component other than the next component in your __
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Slash%20Command.JPG/>
 
+__Note:__ You can still use slash commands to create additional components after your __component sequence__ has ended.
+
 A list of components with basic descriptions for each can be seen by entering _/list_ in Do or Say.
 
 You can also guide a component created with a slash command by including a __request__ after the command. For instance, if your next component is World, but you would like to create a pirate captain, enter _/character a pirate captain_ into Do or Say.
@@ -106,9 +108,21 @@ Components can be fully modified in the scenario text editor, however, certain r
 
 🟡 __Value:__ The text describing its __field__. __This part can be freely edited so long as it remains a single paragraph (a single line).__
 
-## Final Formatted Output
+## Final Formatted Prompt
 
-When you reach the end of your __component sequence__, if you press __continue__ you will get a JSON-formatted __prompt__ that can be used directly in __Play__ or any __Toolbox__ scenario that accepts __Universal Generator prompts__.
+When you reach the end of your __component sequence__, you will get the following message:
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Sequence%20Complete.JPG height=80% width=80% />
+
+If you press __continue__ you will get a JSON-formatted __prompt__ that can be used directly in __Play__ or any __Toolbox__ scenario that accepts __Universal Generator prompts__.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Sample%20Prompt.JPG height=40% width=40% />
+
+You can also get a final formatted __prompt__ by entering _/end_ into __Do__ or __Say__ at any point.
+
+To use your __prompt__ to create an adventure, click on the final output's text box, click __edit__, select all and copy with __Ctrl-A, Ctrl-C__, then __paste__ into __Play__.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Click%20Edit.JPG height=40% width=40% />
 
 # Advanced Topics
 
