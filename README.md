@@ -100,15 +100,13 @@ For a __simple character__, use the _/character_ command. It will look something
 
 A __simple character__ contains a __name__ on the top line, before the hyphen, a __role__ (in parentheses after the word "Character"), as well as a __gender__, and relatively short __background__, __appearance__, and __personality__ fields. For most purposes, especially if the character isn't central to the story, this is enough.
 
-However, sometimes you might want a more detailed character for your story. If so, you can create a __multi-component character__ by starting with a __character base__ using the _/character base_ command. 
-
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Character%20Base%20Command.JPG />
+However, sometimes you might want a more detailed character for your story. If so, you can create a __multi-component character__ by starting with a __character base__. 
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Character%20Base.JPG width=70% height=70% />
 
 A __character base__ has a __name__, __role__, and __gender__ just like a normal __character__ component, but instead of __background__, __appearance__, and __personality__ fields, it has __age__, __from__, and __factions__ fields. A __character base__ is ___NOT___ meant to serve as a character on its own. Instead, it is the first component used in a __multi-component character__.
 
-A character base should be followed by additional components in the __component sequence__ that fill in the details of that character. For instance, if you used _character_ as your __prompt type__ and are making a protagonist for use in __Play with Multiple Prompts__, your __component sequence__ should start something like this:
+A character base should be followed by additional components in the __component sequence__ (or manually, using slash commands) that fill in the details of that character. For instance, if you used _character_ as your __prompt type__ and are making a protagonist for use in __Play with Multiple Prompts__, your __component sequence__ should start something like this:
 
 > \## Component Sequence: Character Base, Background, Appearance, Personality
 
