@@ -17,6 +17,7 @@ __Contents__
 __Advanced Topics__
 - [Generator Settings](#Generator-Settings)
 - [Modifying Component Templates](#Modifying-Component-Templates)
+- [Creating New Component Templates](#Creating-Component-Templates)
 - [Generate with Background Prompt](#Generate-with-Background-Prompt)
 - [Play with Multiple Prompts](#Play-with-Multiple-Prompts)
 - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards)
@@ -148,7 +149,7 @@ To use your __prompt__ to create an adventure, click on the final output's text 
 
 # Advanced Topics
 
-[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
+[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Creating New Component Templates](#Creating-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
 ## Generator Settings
 
@@ -187,12 +188,35 @@ Final Prompt
 
 ## Modifying Component Templates
 
+The individual instructions given to the generator for each component are stored in your __story cards__. Each component has its own template card. These cards can be edited to better suit your needs.
+
+Here is the __character__ template, broken down into parts, and how each part can be modified.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Template%20Parts.jpg height=30% width=30% />
+
+🟢 __Name:__ If a template has a __name__ field. This field is used for scripting purposes. __DO NOT__ modify it.
+
+🟢 **__ of:** Some components in the Character category have an **__ of** field rather than a name. This field is used to connect the components it produces with a __character__ or __character base__ card. This field is used for scripting purposes. __DO NOT__ modify it.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Background%20of%20Field.JPG height=7% width=7% />
+
+🟣 __Role:__ This field is only present on the __character__ and __character base__ templates. This field is used for scripting purposes. __DO NOT__ modify it.
+
+🟠 __Field:__ A name for the information the generator will fill in on this line. __This part can be edited so long as it starts with _"> "_ and ends with a colon _":"_.__ If you want the AI to generate the name for the field, encapsulate an instruction in _"!{...}"_. E.g., _"> !{Ability Name}:"_
+
+🟡 __Instructions:__ Instructions to the generator for how it should fill in this field. Instructions always start after the colon ending their associated __field__. __This part can be freely edited so long as it remains a single paragraph (a single line).__
+
+🔵 __Size:__ A specialized instruction that creates a word count range the generator will try to keep this field within. Size always comes at the very end of the line, after the __instructions__, and must always be _"Size:"_ followed by a number. That number is about how many words this field should be. __For sizes, you can freely change the number listed. You can also add or remove the _"Size:"_ part from the end of any field.__
+
+🔴 __Special Instructions:__ A special field that does not work in the same way as other fields. The generator will not be asked to fill this field in. Instead, the text here will be included in the generator's general instruction set for this component. __You can freely edit, add, or remove a _"> Special Instructions:"_ field. However, you can only have one such field per component.__ 
+
+## Creating New Component Templates
+
 ## Generate with Background Prompt
 
 __Generate with Background Prompt__ lets you include a prior Universal Generator prompt when creating a new one. _The prompt created with this option will __not__ include components from the background prompt in its final output._
 
 This option is useful, for instance, when creating a character to fit with a world or scenario when using __Play with Multiple Prompts__.
-
 
 ## Play with Multiple Prompts
 
