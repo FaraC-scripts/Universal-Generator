@@ -152,7 +152,42 @@ To use your __prompt__ to create an adventure, click on the final output's text 
 
 ## Generator Settings
 
-Set Component Size: changes the maximum word count the generator is given for each output. This should be about 75% of your Response Length. If response length is 200, it should be 150 at baseline. If response length is 400, it should be 300. This number can be adjusted up or down from `
+Universal Generator has a number of settings that can be configured in the scenario. Settings are available in the Generator Settings story card (it should be the bottom-most card in Story Cards).
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Settings%20Card.JPG height=25% width=25% />
+
+When you click on the card, there are configurable settings in the card's Entry.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Settings.JPG height=25% width=25% />
+
+Settings can be changed by changing the values that come after the colon on each line in the Entry. ___DO NOT___ change the text before the colon.
+
+Here are descriptions of what each setting does.
+
+Components
+- Set Maximum Component Size (default: 150): changes the maximum word count the generator is given for each output.
+  - This should be about 75% of your Response Length, but can be adjusted up or down to preference.
+  - If your Response Length is 400, this should be set to 300.
+
+> Set Field Size Multiplier (default: 1.0): a multiplier applied to the size values present in component template cards.
+ >> This greatly affects the average size of components, and if it is increased, the Maximum Component Size should be increased proportionally.
+ >> If this is set to 2.0, the Maximum Component Size should be 300.
+
+> Default to Story Cards (default: false): If true, components are configured as story cards. If false, components are configured as prompt cards.
+ >> story cards are given triggers based on their name and appear at the back of context when triggered
+ >> prompt cards do not need to be triggered and always float in the middle of context
+ >> individual cards can have their format swapped by including the "-s" option in a component creation command, e.g., "/character -s a pirate captain"
+
+Final Prompt
+> Include Concept as Component (default: false): if true, the concept you entered on starting the scenario will be included in the final prompt as its own component.
+
+> Include Relationships (default: true): if true, relationship connections will be added to the final prompt.
+ >> Relationship connections are small fields added to certain components that reference each-other, such as Relationship and the Characters they are between, Locations and the Regions they are within, etc.
+ >> E.g., if you have the "Eiffel Tower" location and "Paris" region, and "Eiffel Tower" has "Paris" as its "Within:" field value,  the "Paris" component will get "Locations: Eiffel Tower" added to it in the final prompt.
+
+> Enable External Use Formatting (default: false): if true, the final prompt will be formatted slightly differently to make it more compatible with non-Toolbox scenarios.
+ >> Enable this, for instance, if you are creating a character to paste into a placeholder or the Plot Components of a standard scenario.
+ >> DO NOT enable this if you intend to use your prompt in Play, or in other Toolbox scenarios that accept Universal Generator prompts.
 
 ## Modifying Component Templates
 
