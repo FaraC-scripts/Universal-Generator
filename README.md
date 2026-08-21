@@ -165,29 +165,25 @@ Settings can be changed by changing the values that come after the colon on each
 Here are descriptions of what each setting does.
 
 Components
-- Set Maximum Component Size (default: 150): changes the maximum word count the generator is given for each output.
-  - This should be about 75% of your Response Length, but can be adjusted up or down to preference.
-  - If your Response Length is 400, this should be set to 300.
-
-> Set Field Size Multiplier (default: 1.0): a multiplier applied to the size values present in component template cards.
- >> This greatly affects the average size of components, and if it is increased, the Maximum Component Size should be increased proportionally.
- >> If this is set to 2.0, the Maximum Component Size should be 300.
-
-> Default to Story Cards (default: false): If true, components are configured as story cards. If false, components are configured as prompt cards.
- >> story cards are given triggers based on their name and appear at the back of context when triggered
- >> prompt cards do not need to be triggered and always float in the middle of context
- >> individual cards can have their format swapped by including the "-s" option in a component creation command, e.g., "/character -s a pirate captain"
+- Set Maximum Component Size (_default: 150_): changes the maximum word count the generator is given for each output.
+  - This should be about 75% of your __Response Length__, but can be adjusted up or down to preference.
+  - If your __Response Length__ is 400, this should be set to 300.
+- Set Field Size Multiplier (_default: 1.0_): a multiplier applied to the size values present in component template cards.
+  - This greatly affects the average size of components, and if it is increased, __Maximum Component Size__ should be increased proportionally.
+  - If this is set to 2.0, __Maximum Component Size__ should be 300.
+- Default to Story Cards (_default: false_): If true, components are configured as __traditional story cards__. If false, components are configured as __prompt cards__.
+  - __Story cards__ are given triggers based on their name and appear at the back of context when triggered
+  - __Prompt cards__ do not need to be triggered and always float in the middle of context
+  - Individual cards can have their format swapped by including the _-s_ option in a component creation command, e.g., _/character -s a pirate captain_
 
 Final Prompt
-> Include Concept as Component (default: false): if true, the concept you entered on starting the scenario will be included in the final prompt as its own component.
-
-> Include Relationships (default: true): if true, relationship connections will be added to the final prompt.
- >> Relationship connections are small fields added to certain components that reference each-other, such as Relationship and the Characters they are between, Locations and the Regions they are within, etc.
- >> E.g., if you have the "Eiffel Tower" location and "Paris" region, and "Eiffel Tower" has "Paris" as its "Within:" field value,  the "Paris" component will get "Locations: Eiffel Tower" added to it in the final prompt.
-
-> Enable External Use Formatting (default: false): if true, the final prompt will be formatted slightly differently to make it more compatible with non-Toolbox scenarios.
- >> Enable this, for instance, if you are creating a character to paste into a placeholder or the Plot Components of a standard scenario.
- >> DO NOT enable this if you intend to use your prompt in Play, or in other Toolbox scenarios that accept Universal Generator prompts.
+- Include Concept as Component (_default: false_): if true, the __concept__ you entered on starting the scenario will be included in the __final prompt__ as its own component.
+- Include Relationships (_default: true_): if true, relationship connections will be added to the final prompt.
+  - Relationship connections are small fields added to certain components that reference each-other, such as the __Relationship__ component and the connected __Characters__, __Location__ components and the __Regions__ they are within, etc.
+  - E.g., if you have the _Eiffel Tower_ location and _Paris_ region, and _Eiffel Tower_ has _Paris_ as its _Within:_ field value,  the _Paris_ component will get _Locations: Eiffel Tower_ added to it in the final prompt.
+- Enable External Use Formatting (_default: false_): if true, the final prompt will be formatted slightly differently to make it more compatible with non-Toolbox scenarios.
+  - Enable this, for instance, if you are creating a character to paste into a placeholder or the __Plot Components__ of a standard scenario.
+  - ___DO NOT___ enable this if you intend to use your prompt in __Play__, or in other Toolbox scenarios that accept Universal Generator prompts.
 
 ## Modifying Component Templates
 
