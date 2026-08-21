@@ -198,7 +198,7 @@ Here is the __character__ template, broken down into parts, and how each part ca
 
 🟢 **__ of:** Some components in the Character category have an **__ of** field rather than a name. This field is used to connect the components it produces with a __character__ or __character base__ card. This field is used for scripting purposes. __DO NOT__ modify it.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Background%20of%20Field.JPG height=7% width=7% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Background%20of%20Field.JPG height=30% width=30% />
 
 🟣 __Role:__ This field is only present on the __character__ and __character base__ templates. This field is used for scripting purposes. __DO NOT__ modify it.
 
