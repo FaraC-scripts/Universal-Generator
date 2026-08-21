@@ -43,9 +43,9 @@ Click __Generate__ then __Generate__ again.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Generate.JPG />
 
-You will be asked to enter a __Prompt Type__ and __Concept__.
+You will be asked to enter a __prompt type__ and __concept__.
 
-__Prompt Type__ is the type of writing you want to produce. Typically, this will be a __genre__ (sci-fi, romance, etc.) plus a __writing type__. The generator has instructions for handling each of the following __standard types__:
+__Prompt type__ is the type of writing you want to produce. Typically, this will be a __genre__ (sci-fi, romance, etc.) plus a __writing type__. The generator has instructions for handling each of the following __standard types__:
 - __Scenario:__ An open-ended adventure that focuses more on exploration and freedom than producing a specific story.
 - __Narrative:__ An adventure tailored to specific characters and situations, intended to progress along a planned course.
 - __Short Story:__ An adventure with a limited scope, intended to last for just a few scenes.
@@ -66,7 +66,7 @@ The __initial output__ is split into four sections: role, direction, component s
 
 The __component sequence__ does not guide the generator's writing, but it does control which components get created and in what order.
 
-___Before you continue___, make sure the __component sequence__ fits the type of prompt you want to create. You can enter _/list_ in Do or Say for a summary of what each component does or look at the __component templates__ in your Story Cards for full information on exactly what the generator will be asked to created.
+___Before you continue___, make sure the __component sequence__ fits the type of prompt you want to create. You can enter _/list_ in Do or Say for a summary of what each component does or look at the __component templates__ in your story cards for full information on exactly what the generator will be asked to created.
 
 ## Creating Components
 
@@ -112,7 +112,7 @@ A character base should be followed by additional components in the __component 
 
 The resulting character prompt would consist of four components, the __character base__ as well as a full component detailing that character's __background__, __appearance__, and __personality__, providing considerably more depth to that character (and taking up a larger number of tokens in your context).
 
-Whether you started with a __simple__ or __multi-component character__, you can add further information to that character with Character-type components (you can see them in Story Cards under the _Component - Character_ category). Aside from those already mentioned, the components that work by building off of an existing __character__ or __character base__ component include: __speech__, __preferences__, __romantic preferences__, __relationship__, __attributes__, __class__, __abilities__, __clothing__, __equipment__, __inventory__, and __resources__. If you are building a character, choose the components that are most important. ___Using all of these at the same time is certainly not recommended.___
+Whether you started with a __simple__ or __multi-component character__, you can add further information to that character with Character-type components (you can see them in __story cards__ under the _Component - Character_ category). Aside from those already mentioned, the components that work by building off of an existing __character__ or __character base__ component include: __speech__, __preferences__, __romantic preferences__, __relationship__, __attributes__, __class__, __abilities__, __clothing__, __equipment__, __inventory__, and __resources__. If you are building a character, choose the components that are most important. ___Using all of these at the same time is certainly not recommended.___
 
 ## Modifying Components
 
@@ -172,7 +172,7 @@ Components
   - This greatly affects the average size of components, and if it is increased, __Maximum Component Size__ should be increased proportionally.
   - If this is set to 2.0, __Maximum Component Size__ should be 300.
 - Default to Story Cards (_default: false_): If true, components are configured as __traditional story cards__. If false, components are configured as __prompt cards__.
-  - __Story cards__ are given triggers based on their name and appear at the back of context when triggered
+  - __story cards__ are given triggers based on their name and appear at the back of context when triggered
   - __Prompt cards__ do not need to be triggered and always float in the middle of context
   - Individual cards can have their format swapped by including the _-s_ option in a component creation command, e.g., _/character -s a pirate captain_
 
@@ -182,7 +182,7 @@ Final Prompt
   - Relationship connections are small fields added to certain components that reference each-other, such as the __Relationship__ component and the connected __Characters__, __Location__ components and the __Regions__ they are within, etc.
   - E.g., if you have the _Eiffel Tower_ location and _Paris_ region, and _Eiffel Tower_ has _Paris_ as its _Within:_ field value,  the _Paris_ component will get _Locations: Eiffel Tower_ added to it in the final prompt.
 - Enable External Use Formatting (_default: false_): if true, the final prompt will be formatted slightly differently to make it more compatible with non-Toolbox scenarios.
-  - Enable this, for instance, if you are creating a character to paste into a placeholder or the __Plot Components__ of a standard scenario.
+  - Enable this, for instance, if you are creating a character to paste into a placeholder or the __plot components__ of a standard scenario.
   - ___DO NOT___ enable this if you intend to use your prompt in __Play__, or in other Toolbox scenarios that accept Universal Generator prompts.
 
 ## Modifying Component Templates
