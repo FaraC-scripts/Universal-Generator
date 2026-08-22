@@ -212,6 +212,14 @@ Here is the __character__ template, broken down into parts, and how each part ca
 
 ## Creating New Component Templates
 
+The easiest way to create a new component template is to __duplicate and modify an old template story card__.
+
+When creating a template, the following rules must be obeyed for the new story card:
+- The card's __type__ must be set to __custom__, then in the text box that appears beneath the custom type, its type name must begin with _Component_. It can optionally include a subtype after a hyphen, e.g., _Component - Story_
+- The card's __name__ must be component name, and the slash command used to create it. E.g., a new component named _Cuisine_ has the slash command _/cuisine_
+- The card's __entry__ must be a list of __fields__, each on its own line. Each line must start with _"> "_, then the field name, then then a colon, then instructions for completing the field. See [Modifying Component Templates](#Modifying-Component-Templates) for a more detailed breakdown.
+- The card's __notes__ must contain two pieces of information used by the generator. The first line must be a short description of what the component is, e.g., _A description of a region's food and cooking._ The second line must be the word Symbol, followed by a colon, then a single character, preferably a unique emoji, e.g., 🍴
+
 ## Generate with Background Prompt
 
 __Generate with Background Prompt__ lets you include a prior Universal Generator prompt when creating a new one. _The prompt created with this option will __not__ include components from the background prompt in its final output._
