@@ -13,11 +13,12 @@ __Contents__
 - [Characters](#Characters)
 - [Modifying Components](#Modifying-Components)
 - [Final Formatted Prompt](#Final-Formatted-Prompt)
+- [Play](#Play)
 
 __Advanced Topics__
 - [Generator Settings](#Generator-Settings)
 - [Modifying Component Templates](#Modifying-Component-Templates)
-- [Creating New Component Templates](#Creating-Component-Templates)
+- [Creating New Component Templates](#Creating-New-Component-Templates)
 - [Generate with Background Prompt](#Generate-with-Background-Prompt)
 - [Play with Multiple Prompts](#Play-with-Multiple-Prompts)
 - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards)
@@ -143,13 +144,23 @@ If you press __continue__ you will get a JSON-formatted __prompt__ that can be u
 
 You can also get a final formatted __prompt__ by entering _/end_ into __Do__ or __Say__ at any point.
 
-To use your __prompt__ to create an adventure, click on the final output's text box, click __edit__, select all and copy with __Ctrl-A, Ctrl-C__, then __paste__ into __Play__.
+## Play
+
+To use your __prompt__ to create an adventure, click on the final output's text box, click __edit__, select all and copy with __Ctrl-A, Ctrl-C__.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Click%20Edit.JPG height=40% width=40% />
 
+Return to the Universal Generator base scenario and start a new instance. This time, you need to click __Play__, then __Play__ again.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Play.JPG height=80% width=80% />
+
+Paste your __prompt__ when asked to do so.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Paste%20into%20Play.JPG height=65% width=65% />
+
 # Advanced Topics
 
-[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Creating New Component Templates](#Creating-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
+[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Creating New Component Templates](#Creating-New-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
 ## Generator Settings
 
@@ -222,11 +233,15 @@ When creating a template, the following rules must be obeyed for the new story c
 
 ## Generate with Background Prompt
 
-__Generate with Background Prompt__ lets you include a prior Universal Generator prompt when creating a new one. _The prompt created with this option will __not__ include components from the background prompt in its final output._
+__Generate with Background Prompt__ is a scenario option branching from Universal Generator's __Generate__ option. This option lets you include a prior Universal Generator prompt when creating a new one. _The final prompt generated through this option with this option will __not__ include components from the background prompt in its final output._
 
 This option is useful, for instance, when creating a character to fit with a world or scenario when using __Play with Multiple Prompts__.
 
+To use it, paste an existing formatted __prompt__ when asked to do so. This __prompt__ is the large text block starting and ending with square and curly brackets that __Generate__ outputs once its __component sequence__ is complete. 
+
 ## Play with Multiple Prompts
+
+
 
 ## Prompt Cards vs Story Cards
 
