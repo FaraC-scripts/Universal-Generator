@@ -156,7 +156,7 @@ Return to the Universal Generator base scenario and start a new instance. This t
 
 Paste your __prompt__ when asked to do so.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Paste%20into%20Play.JPG height=65% width=65% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Paste%20into%20Play.JPG height=55% width=55% />
 
 # Advanced Topics
 
@@ -241,7 +241,20 @@ To use it, paste an existing formatted __prompt__ when asked to do so. This __pr
 
 ## Play with Multiple Prompts
 
+__Play with Multiple Prompts__ is a scenario option branching from Universal Generator's __Play__ option. This option lets you create an __adventure__ using up to three __prompts__: a __main prompt__ as well as an optional __protagonist prompt__ and __background prompt__.
 
+__Main Prompt (Required):__ this is what you would normally paste into the basic __Play__ option. It typically contains the bulk of your components, including __narrative__ or __scenario__, __backstory__, __style__, and other critical components.
+
+__Protagonist Prompt (Optional):__ this prompt should contain a __character__ or __character base__ component and other associated components, such as __clothing__. This prompt is treated to ___special processing___ in the following ways:
+- Toolbox first looks for a __character__ or __character base__ component with the _Protagonist_ role, meaning a component with a top line like _Nadine - Character (Protagonist)_
+- If Toolbox cannot find a protagonist, it sets the role of the first __character__ or __character base__ component it finds to _Protagonist_. _Nadine - Character (Ace Pilot)_ becomes _Nadine - Character (Protagonist)_
+- Toolbox will then collect all Character-type components associated with the selected character (except __relationship__ components). These are the components that start with the character's name as a possessive on the top line, e.g., _Nadine's Clothing_. All other components in the protagonist prompt __will be discarded.__
+- If the __main prompt__ has a character with the _Protagonist_ role already, __the existing protagonist component will be replaced__. If that old protagonist component was associated with any __appearance__, __personality__, or __speech__ components, those will __also be removed__.
+- If the old protagonist was associated with any components that are also in the __protagonist prompt__, the old components __will be replaced__. E.g., if the old protagonist _Thomas_ had the _Thomas's Clothing_ component, it would be replaced by _Nadine's Clothing_.
+- If the old protagonist was associated with any components that the new protagonist __does not have__, those components will be __kept and renamed to match the new protagonist__. E.g., if the old protagonist _Thomas_ had the _Thomas's Resources_ component, but the __protagonist prompt__ did __not__ contain _Nadine's Resources_, _Thomas's Resources_ will be renamed to _Nadine's Resources_.
+- If the __main prompt__ had a named protagonist, all instances of that character's name in all components of the __main prompt__ will be replaced with the name of the __protagonist prompt's__ new protagonist e.g., all instances of _Thomas_ everywhere will be replaced with _Nadine_.
+
+__Background Prompt (Optional):__ The components in the __background prompt__ can be anything, and might typically include __lore__, __location__, and supporting __character__ components. Anything that is low-priority information. It is also a good place to paste a prompt that creates additional __story cards__ (as opposed to standard __prompt cards__). All of the components from the __background prompt__ will be placed behind the __main prompt__ in context.
 
 ## Prompt Cards vs Story Cards
 
