@@ -1,4 +1,4 @@
-# 🌌 Universal Generator Guide 🌌
+# 🌌Universal Generator Guide🌌
 A guide to the uses and features of Universal Generator.
 
 __Universal Generator__ is an AI Dungeon scenario that can be used to create prompts for custom scenarios, narratives, characters, and worlds. It can be found here:
@@ -257,6 +257,22 @@ __Protagonist Prompt (Optional):__ this prompt should contain a __character__ or
 __Background Prompt (Optional):__ The components in the __background prompt__ can be anything, and might typically include __lore__, __location__, and supporting __character__ components. Anything that is low-priority information. It is also a good place to paste a prompt that creates additional __story cards__ (as opposed to standard __prompt cards__). All of the components from the __background prompt__ will be placed behind the __main prompt__ in context.
 
 ## Prompt Cards vs Story Cards
+
+When a __prompt__ is used to run a __Toolbox__ adventure, such as when using __Play__, its components get converted into either __prompt cards__ or __story cards__.
+
+__Prompt cards__ are specialized story cards that only function within a __Toolbox__ scenario, and can be found in your adventure's story cards. Prompt cards are inserted into the middle of context by Toolbox automatically and are always visible to the AI. They do not use triggers, and the triggers part of their story card __must__ remain empty. Prompt cards always have a custom type line, starting with _Prompt_ and often followed with a hyphen and a type, e.g., _Prompt - Story_.
+
+__Story cards__ are traditional AI Dungeon story cards. They use triggers and get added to the back of context when the context contains one of their triggers.
+
+Components with a _Triggers_ field get converted into __story cards__. Those that do not have a _Triggers_ field get converted into __prompt cards__.
+
+By default, all components do __not__ generate with a _Triggers_ field. This can be changed in the __Generator Settings__ story card. If __Default to Story Cards__ is set to _true_, all components will generate with a __Triggers_ field and thus be converted into __story cards__ instead of __prompt cards__.
+
+The _-s_ option can also be added to individual component requests to switch them to the __opposite of default__. If __Default to Story Cards__ is in its default _false_ setting, this option will create a __story card__. If it is _true_, the option will create a __prompt card__. To use the option, include it after the slash command (if one is being used) and before the request. All of the following are valid things to enter into __Do__ or __Say__ to use this option:
+
+> -s
+> -s a pirate captain
+> /character -s a pirate captain
 
 ## Using Prompts in a Standard Scenario
 
