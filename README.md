@@ -268,11 +268,13 @@ Components with a _Triggers_ field get converted into __story cards__. Those tha
 
 By default, all components do __not__ generate with a _Triggers_ field. This can be changed in the __Generator Settings__ story card. If __Default to Story Cards__ is set to _true_, all components will generate with a __Triggers_ field and thus be converted into __story cards__ instead of __prompt cards__.
 
-The _-s_ option can also be added to individual component requests to switch them to the __opposite of default__. If __Default to Story Cards__ is in its default _false_ setting, this option will create a __story card__. If it is _true_, the option will create a __prompt card__. To use the option, include it after the slash command (if one is being used) and before the request. All of the following are valid things to enter into __Do__ or __Say__ to use this option:
+The _-s_ option can also be added to individual component requests to switch them to the __opposite of default__. If __Default to Story Cards__ is in its default _false_ setting, this option will create a __story card__. If it is _true_, the option will create a __prompt card__. To use the option, include it after the slash command (if one is being used) and before the request (if one is being provided). All of the following are valid things to enter into __Do__ or __Say__ to use this option:
 
 > -s
 > 
 > -s a pirate captain
+>
+> /character -s
 >
 > /character -s a pirate captain
 
