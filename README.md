@@ -24,7 +24,6 @@ __Advanced Topics__
 - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards)
 - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario)
 - [Component Relationships](#Component-Relationships)
-- [Creating Placeholder Cards](#Creating-Placeholder-Cards)
 
 ## Getting Started
 
@@ -160,7 +159,7 @@ Paste your __prompt__ when asked to do so.
 
 # Advanced Topics
 
-[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Creating New Component Templates](#Creating-New-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships) - [Creating Placeholder Cards](#Creating-Placeholder-Cards)
+[Generator Settings](#Generator-Settings) - [Modifying Component Templates](#Modifying-Component-Templates) - [Creating New Component Templates](#Creating-New-Component-Templates) - [Generate with Background Prompt](#Generate-with-Background-Prompt) - [Play with Multiple Prompts](#Play-with-Multiple-Prompts) - [Prompt Cards vs Story Cards](#Prompt-Cards-vs-Story-Cards) - [Using Prompts in a Standard Scenario](#Using-Prompts-in-a-Standard-Scenario) - [Component Relationships](#Component-Relationships)
 
 ## Generator Settings
 
@@ -288,9 +287,11 @@ To make the prompt somewhat readable to a standard scenario's AI, you should set
 
 ## Component Relationships
 
+Some components have __relational fields__ meant to connect to other components (when available). They are: "Where", "Location", "Region", "Within", "From", "Factions", and "Between".
 
+If the __Include Relationships__ setting in your Generator Settings story card is set to _true_, components with relational fields will add connecting fields to the related component.
 
-## Creating Placeholder Cards
+For instance, if you have the _Eiffel Tower_ location and _Paris_ region, and _Eiffel Tower_ has _Paris_ as its _Within:_ field value,  the _Paris_ component will get _Locations: Eiffel Tower_ added to it in the final prompt.
 
 ## Glossary
 
