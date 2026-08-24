@@ -1,4 +1,4 @@
-# 🌌Universal Generator Guide🌌
+# 🌌 Universal Generator Guide 🌌
 A guide to the uses and features of Universal Generator.
 
 __Universal Generator__ is an AI Dungeon scenario that can be used to create prompts for custom scenarios, narratives, characters, and worlds. It can be found here:
@@ -30,9 +30,9 @@ __Advanced Topics__
 
 Before you start using Universal Generator, ensure your settings are properly configured. Improperly configured settings, particularly __Optimized Context__, are the number one cause of issues.
 
-__⚙️Required Model Settings__
+__⚙️ Required Model Settings__
 
-⚠️Optimized Context: ___MUST BE OFF___ (Gameplay -> Story Generator -> Memory System)
+⚠️ Optimized Context: ___MUST BE OFF___ (Gameplay -> Story Generator -> Memory System)
 
 Context Length: 4000+  (Gameplay -> Story Generator -> Memory System)
 
@@ -280,7 +280,15 @@ The _-s_ option can also be added to individual component requests to switch the
 
 ## Using Prompts in a Standard Scenario
 
+Universal Generator prompts can be used in any scenario, to some degree. The information contained in the __final formatted prompt__ is JSON, which will be readily understood by the AI most of the time.
+
+Typically, the best place to put your prompt is in a scenario's __plot essentials__. However, character details can often be pasted directly into a scenario placeholder that asks for such details. For instance, if a scenario has a prompt asking you to describe your character, you can often directly paste a __protagonist prompt__ there.
+
+To make the prompt somewhat readable to a standard scenario's AI, you should set __Enable External Use Formatting__ to _true_ in your Generator Settings story card before creating your final prompt. ___NOTE:_ the prompt output you get will be unusable in Universal Generator's Play.__
+
 ## Component Relationships
+
+
 
 ## Creating Placeholder Cards
 
