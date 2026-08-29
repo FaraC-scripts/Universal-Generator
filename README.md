@@ -1,6 +1,6 @@
-# 🌌 Universal Generator Guide 🌌
-
 <img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Universal%20Generator.png />
+
+# 🌌 Universal Generator Guide 🌌
 
 A guide to the uses and features of Universal Generator.
 
