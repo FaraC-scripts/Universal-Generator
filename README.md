@@ -1,5 +1,7 @@
-<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Universal%20Generator.png />
 # 🌌 Universal Generator Guide 🌌
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator/blob/main/Images/Universal%20Generator.png />
+
 A guide to the uses and features of Universal Generator.
 
 __Universal Generator__ is an AI Dungeon scenario that can be used to create prompts for custom scenarios, narratives, characters, and worlds. It can be found here:
