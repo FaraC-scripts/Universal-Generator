@@ -189,6 +189,9 @@ Components
   - __story cards__ are given triggers based on their name and appear at the back of context when triggered
   - __Prompt cards__ do not need to be triggered and always float in the middle of context
   - Individual cards can have their format swapped by including the _-s_ option in a component creation command, e.g., _/character -s a pirate captain_
+- Use Full-Title Triggers (Default: true): If true, the entire card title will be used as its trigger.
+  - If false, each word in the card title except for small words like "and" will be used as separate triggers.
+  - Only matters if creating a traditional __story card__, not a __prompt card__.
 
 Final Prompt
 - Include Concept as Component (_default: false_): if true, the __concept__ you entered on starting the scenario will be included in the __final prompt__ as its own component.
