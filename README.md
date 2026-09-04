@@ -6,7 +6,7 @@ A guide to the uses and features of Universal Generator.
 
 __Universal Generator__ is an AI Dungeon scenario that can be used to create prompts for custom scenarios, narratives, characters, and worlds. It can be found here:
 
-${UG Scenario}
+[https://play.aidungeon.com/scenario/Kj-pypp8vkwc/universal-generator?share=true&published=true](https://play.aidungeon.com/scenario/Kj-pypp8vkwc/universal-generator?share=true&published=true)
 
 [__Glossary__](#Glossary)
 
